@@ -32,12 +32,7 @@ namespace testAPI_console
                 Console.WriteLine("Muofaqiyatli qo'shildi");
                 Console.ReadLine();
             }
-
-
-            /* int user_id;
-             string user_login;
-             string user_pass;
-             char user_role_id = '1';*/
+     
             else if (v == "2")
             {
                 connect.Open();
@@ -53,16 +48,7 @@ namespace testAPI_console
             {
                 Console.WriteLine("Notogri kod kiritildi");
                 goto link1;
-            }
-            
-
-            
-
-
-
-
-
-
+            }           
         }
     }
 }
